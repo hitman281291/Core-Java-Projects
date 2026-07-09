@@ -5,13 +5,13 @@ void main()
     Scanner sc = new Scanner(System.in);
     Long n = sc.nextLong();
     
-    int length = n.toString().length();
+//    int length = n.toString().length();
+//
+//    IO.println("Number of digits in provided number "+n+" is "+length);
 
-    IO.println("Number of digits in provided number "+n+" is "+length);
-
-//    for(int i=n.toString().length(); i<=n.toString().length(); i++)
-//    {
-//        IO.println("Number of digits in provided number " + n + " is " + i);
-//    }
+    for(int i=n.toString().length(); i<=n.toString().length(); i++)
+    {
+        IO.println("Number of digits in provided number " + n + " is " + i);
+    }
 
 }
