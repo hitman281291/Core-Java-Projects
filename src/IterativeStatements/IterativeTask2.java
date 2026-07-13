@@ -7,11 +7,18 @@ void main()
 
     long factorial = 1;
     
-    for(int i=1; i<=n; i++)
+//    for(int i=1; i<=n; i++)
+//    {
+//        factorial = factorial * i;
+//
+//    }
+
+    for(int i=n; i>=1; i--)
     {
         factorial = factorial * i;
 
     }
+
     
     IO.println("Factorial of provided value "+n+" is "+factorial);
 }

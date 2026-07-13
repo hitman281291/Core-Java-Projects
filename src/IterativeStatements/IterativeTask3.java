@@ -9,9 +9,20 @@ void main()
 //
 //    IO.println("Number of digits in provided number "+n+" is "+length);
 
-    for(int i=n.toString().length(); i<=n.toString().length(); i++)
+    //***************************************
+//    for(int i=n.toString().length(); i<=n.toString().length(); i++)
+//    {
+//        IO.println("Number of digits in provided number " + n + " is " + i);
+//     }
+
+    int count = 0;
+    
+    while(n!=0)
     {
-        IO.println("Number of digits in provided number " + n + " is " + i);
+        n = n/10;
+        count++;
     }
+    
+    IO.println("Number of digits in provided number is "+count);
 
 }
