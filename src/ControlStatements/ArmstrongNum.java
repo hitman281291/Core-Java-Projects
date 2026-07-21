@@ -1,10 +1,8 @@
 void main()
 {
     IO.println("Check number is Armstrong or not");
-    
 
     Scanner sc = new Scanner(System.in);
-    
     
     IO.println("Enter the number which needs to be checked Armstrong or not");
     int num  = sc.nextInt();
