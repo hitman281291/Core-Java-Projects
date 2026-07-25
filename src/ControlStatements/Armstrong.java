@@ -9,7 +9,7 @@ void main()
         int originalNumber = no;
         int sum = 0;
 
-        //Calculate number of digits
+        //Calculate number of digit
         int temp = no;
         int digits = 0;
 
